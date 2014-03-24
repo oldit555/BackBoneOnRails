@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require handlebars.runtime
 //= require ./libs/underscore
 //= require ./libs/backbone
 //= requite ./app/global
