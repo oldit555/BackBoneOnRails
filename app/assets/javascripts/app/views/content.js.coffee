@@ -12,3 +12,10 @@ class App.Views.Content extends Backbone.View
   renderEmptyView: ->
     v = new App.Views.Empty()
     @$('#main-area').html(v.render().el)
+
+    ###
+  renderProjectsView: ->
+    v = new App.Views.Projects()
+    @$('#sidebar-area').html(v.render().el)
+    ###
+    console.log(10) 
